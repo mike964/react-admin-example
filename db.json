@@ -29,6 +29,12 @@
       "body": "This is new post by @mike",
       "id": "NHr8L1-",
       "publishedAt": "2022-05-06"
+    },
+    {
+      "publishedAt": "2022-05-04",
+      "title": "Post for",
+      "body": "This is fourth post",
+      "id": "RUv7NuJ"
     }
   ],
   "users": [
