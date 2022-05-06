@@ -9,22 +9,24 @@ import UserCreate from './components/UserCreate'
 import UserEdit from './components/UserEdit'
 
 function App() {
-  return (
-    <Admin dataProvider={restProvider('http://localhost:3000')}>
-      <Resource
-        name='posts'
-        list={PostList}
-        create={PostCreate}
-        edit={PostEdit}
-      />
-      <Resource
-        name='users'
-        list={UserList}
-        create={UserCreate}
-        edit={UserEdit}
-      />
-    </Admin>
-  )
+	// Q : Why http://localhost:3000' for restProvider, not 5000?
+	// A : Bcuz we added proxy to package.json and it will proxy to it
+	return (
+		<Admin dataProvider={restProvider('http://localhost:3000')}>
+			<Resource
+				name='posts'
+				list={PostList}
+				create={PostCreate}
+				edit={PostEdit}
+			/>
+			<Resource
+				name='users'
+				list={UserList}
+				create={UserCreate}
+				edit={UserEdit}
+			/>
+		</Admin>
+	)
 }
 
 export default App

@@ -23,6 +23,12 @@
       "body": "This is the body for post 4",
       "publishedAt": "2020-10-06",
       "id": "DdCICG7"
+    },
+    {
+      "title": "New Post 13",
+      "body": "This is new post by @mike",
+      "id": "NHr8L1-",
+      "publishedAt": "2022-05-06"
     }
   ],
   "users": [
@@ -30,6 +36,11 @@
       "id": "1",
       "name": "John Smith",
       "email": "john@example.com"
+    },
+    {
+      "name": "Mike",
+      "email": "mike@mail.com",
+      "id": "iLiAjiZ"
     }
   ]
 }
