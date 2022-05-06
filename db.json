@@ -35,6 +35,20 @@
       "title": "Post for",
       "body": "This is fourth post",
       "id": "RUv7NuJ"
+    },
+    {
+      "publishedAt": 1651831767792,
+      "userId": "1",
+      "title": "Post 54",
+      "body": "First post by john smith",
+      "id": "hUD_LSb"
+    },
+    {
+      "publishedAt": 1651831825361,
+      "title": "Good Evening",
+      "body": "First post by Lucy",
+      "userId": "sdfsgs",
+      "id": "595VZWQ"
     }
   ],
   "users": [
@@ -44,9 +58,14 @@
       "email": "john@example.com"
     },
     {
-      "name": "Mike",
+      "name": "Mike Dev",
       "email": "mike@mail.com",
       "id": "iLiAjiZ"
+    },
+    {
+      "name": "Lucy Lin",
+      "email": "lucy@mail.com",
+      "id": "sdfsgs"
     }
   ]
 }
